@@ -6,10 +6,10 @@
 
 #### Read or watch:
 * [HTTP headers] (https://www.google.com/search?q=http+headers+explained+post&oq=http+headers+explained+post)
-* [Scraping] (https://www.google.com/search?q=scraping+html&cad=h)
-* [OCR for Captcha] (https://www.google.com/search?q=solving+captcha+with+ocr)
-* [TOR] (https://www.google.com/search?q=tor)
-* [Proxy list] (https://www.google.com/search?q=proxy+lists)
+* [Scraping] (#https://www.google.com/search?q=scraping+html&cad=h)
+* [OCR for Captcha] (#https://www.google.com/search?q=solving+captcha+with+ocr)
+* [TOR] (#https://www.google.com/search?q=tor)
+* [Proxy list] (#https://www.google.com/search?q=proxy+lists)
 
 
 ## Task
