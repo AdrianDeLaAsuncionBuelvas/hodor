@@ -21,8 +21,8 @@ def cheat_vote_Level_0(times):
     key = rq.cookies['HoldTheDoor']
     my_data = {'id': '1550', 'holdthedoor': 'Submit', 'key': key}
     cookie = {'HoldTheDoor': key}
-    header_UA = {"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:73.0)\
- Gecko/20100101 Firefox/73.0"}
+    header_UA = ("Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:73.0)\
+ Gecko/20100101 Firefox/73.0")
     header = {'User-Agent': header_UA, 'Referer': url}
 
     for i in range(times):
@@ -40,8 +40,6 @@ def cheat_vote_Level_0(times):
     print('SUCCESS!! [{:d}]'.format(succes))
     print('=============================')
     print('FAILURES [{:d}]'.format(failures))
-    print('=============================')
-    print(rq.json)
     print('==============================')
     print('Headers')
     print(rq.headers)
