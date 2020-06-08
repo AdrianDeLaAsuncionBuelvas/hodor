@@ -19,7 +19,7 @@ def cheat_vote_Level_0(times):
     rq = requests.get(url)
 
     key = rq.cookies['HoldTheDoor']
-    my_data = {'id': '1550', 'holdthedoor': 'submit', 'key': key}
+    my_data = {'id': '1550', 'holdthedoor': 'Submit', 'key': key}
     cookie = {'HoldTheDoor': key}
     s = requests.Session()
 
