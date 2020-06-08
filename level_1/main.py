@@ -24,7 +24,7 @@ def cheat_vote_Level_0(times):
     s = requests.Session()
 
     for i in range(times):
-        rq = requests.post(url, data = my_data, cookies=cookie)
+        rq = requests.post(url, data=my_data, cookies=cookie)
         if (rq.status_code == 200):
             print("vote {:d}".format(succes))
             succes += 1
