@@ -14,12 +14,11 @@ def cheat_vote_Level_0(times):
     succes = 0
     failures = 0
 
-    my_data = {'id': '1550', 'holdthedoor': 'submit'}
-    url = "http://158.69.76.135/level0.php"
-    s = requests.Session()
+    my_data = {'id': '1550', 'holdthedoor': 'Submit'}
+    url = 'http://158.69.76.135/level0.php'
 
     for i in range(times):
-        rq = requests.post(url, my_data)
+        rq = requests.post(url, data=my_data)
         if (rq.status_code == 200):
             print("vote {:d}".format(succes))
             succes += 1
@@ -27,8 +26,8 @@ def cheat_vote_Level_0(times):
             print('Failure!')
             failures += 1
 
-    print('=============================')
-    print("\nYou Id 1550")
+    print('\n=============================')
+    print("You Id {}".format(my_data['id']))
     print('=============================')
     print('SUCCESS!! [{:d}]'.format(succes))
     print('=============================')
